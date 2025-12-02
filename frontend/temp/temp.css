@@ -50,6 +50,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 60%;
 }
 
 #info input {
@@ -59,6 +60,8 @@ body {
     background-color: rgba(247, 247, 247, 0.062);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%;
+    max-width: 400px;
 }
 
 #info input::placeholder {
@@ -80,7 +83,8 @@ body {
     border-radius: 10px;
     padding: 10px;
     font-size: 1.3rem;
-    width: 100%;
+    width: 50%;
+    max-width: 200px;
     cursor: pointer;
     transition: all 0.3s ease;
     color: rgb(216, 216, 216);
